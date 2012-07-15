@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7181DA1415B2B9C6004BD9C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7181DA1315B2B9C6004BD9C3 /* UIKit.framework */; };
+		7181DA1615B2B9C6004BD9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7181DA1515B2B9C6004BD9C3 /* Foundation.framework */; };
+		7181DA1815B2B9C6004BD9C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7181DA1715B2B9C6004BD9C3 /* CoreGraphics.framework */; };
+		7181DA2015B2B9C7004BD9C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA1F15B2B9C7004BD9C3 /* main.m */; };
+		7181DA2415B2B9C7004BD9C3 /* LensAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA2315B2B9C7004BD9C3 /* LensAppDelegate.m */; };
+		7181DA2C15B2BB21004BD9C3 /* LensExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA2B15B2BB21004BD9C3 /* LensExampleViewController.m */; };
+		7181DA2F15B2C385004BD9C3 /* LensSierpinskiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA2E15B2C385004BD9C3 /* LensSierpinskiView.m */; };
+		7181DA5315B2F649004BD9C3 /* LOOLensBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA3315B2D2DC004BD9C3 /* LOOLensBaseView.m */; };
+		7181DA5415B2F649004BD9C3 /* LOOMagGlassLensDecorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA3515B2D2DC004BD9C3 /* LOOMagGlassLensDecorView.m */; };
+		7181DA5515B2F649004BD9C3 /* LOOMagGlassLensView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA3715B2D2DC004BD9C3 /* LOOMagGlassLensView.m */; };
+		7181DA5615B2F649004BD9C3 /* LOOReadingGlassLensDecorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA3915B2D2DC004BD9C3 /* LOOReadingGlassLensDecorView.m */; };
+		7181DA5715B2F649004BD9C3 /* LOOReadingGlassLensView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA3B15B2D2DC004BD9C3 /* LOOReadingGlassLensView.m */; };
+		7181DA5815B2F649004BD9C3 /* LOOCGFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7181DA4215B2D306004BD9C3 /* LOOCGFunctions.m */; };
+		7181DA5915B2F676004BD9C3 /* LOOLensBaseView+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 7181DA3115B2D2DC004BD9C3 /* LOOLensBaseView+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7181DA5A15B2F676004BD9C3 /* LOOLensBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7181DA3215B2D2DC004BD9C3 /* LOOLensBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7181DA5B15B2F676004BD9C3 /* LOOMagGlassLensView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7181DA3615B2D2DC004BD9C3 /* LOOMagGlassLensView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7181DA5C15B2F676004BD9C3 /* LOOReadingGlassLensView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7181DA3A15B2D2DC004BD9C3 /* LOOReadingGlassLensView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7181DA5D15B2F676004BD9C3 /* LOOCGFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7181DA4115B2D306004BD9C3 /* LOOCGFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7181DA6115B308C5004BD9C3 /* libLensView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7181DA4815B2F5D7004BD9C3 /* libLensView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7181DA6615B30A70004BD9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7181DA0615B2B9C6004BD9C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7181DA4715B2F5D7004BD9C3;
+			remoteInfo = libLensView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7181DA0F15B2B9C6004BD9C3 /* LensView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7181DA1315B2B9C6004BD9C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7181DA1515B2B9C6004BD9C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7181DA1715B2B9C6004BD9C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7181DA1B15B2B9C6004BD9C3 /* LensView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LensView-Info.plist"; sourceTree = "<group>"; };
+		7181DA1F15B2B9C7004BD9C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7181DA2115B2B9C7004BD9C3 /* LensView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LensView-Prefix.pch"; sourceTree = "<group>"; };
+		7181DA2215B2B9C7004BD9C3 /* LensAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LensAppDelegate.h; sourceTree = "<group>"; };
+		7181DA2315B2B9C7004BD9C3 /* LensAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LensAppDelegate.m; sourceTree = "<group>"; };
+		7181DA2A15B2BB21004BD9C3 /* LensExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LensExampleViewController.h; sourceTree = "<group>"; };
+		7181DA2B15B2BB21004BD9C3 /* LensExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LensExampleViewController.m; sourceTree = "<group>"; };
+		7181DA2D15B2C385004BD9C3 /* LensSierpinskiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LensSierpinskiView.h; sourceTree = "<group>"; };
+		7181DA2E15B2C385004BD9C3 /* LensSierpinskiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LensSierpinskiView.m; sourceTree = "<group>"; };
+		7181DA3115B2D2DC004BD9C3 /* LOOLensBaseView+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LOOLensBaseView+Protected.h"; sourceTree = "<group>"; };
+		7181DA3215B2D2DC004BD9C3 /* LOOLensBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOOLensBaseView.h; sourceTree = "<group>"; };
+		7181DA3315B2D2DC004BD9C3 /* LOOLensBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOOLensBaseView.m; sourceTree = "<group>"; };
+		7181DA3415B2D2DC004BD9C3 /* LOOMagGlassLensDecorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOOMagGlassLensDecorView.h; sourceTree = "<group>"; };
+		7181DA3515B2D2DC004BD9C3 /* LOOMagGlassLensDecorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOOMagGlassLensDecorView.m; sourceTree = "<group>"; };
+		7181DA3615B2D2DC004BD9C3 /* LOOMagGlassLensView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOOMagGlassLensView.h; sourceTree = "<group>"; };
+		7181DA3715B2D2DC004BD9C3 /* LOOMagGlassLensView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOOMagGlassLensView.m; sourceTree = "<group>"; };
+		7181DA3815B2D2DC004BD9C3 /* LOOReadingGlassLensDecorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOOReadingGlassLensDecorView.h; sourceTree = "<group>"; };
+		7181DA3915B2D2DC004BD9C3 /* LOOReadingGlassLensDecorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOOReadingGlassLensDecorView.m; sourceTree = "<group>"; };
+		7181DA3A15B2D2DC004BD9C3 /* LOOReadingGlassLensView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOOReadingGlassLensView.h; sourceTree = "<group>"; };
+		7181DA3B15B2D2DC004BD9C3 /* LOOReadingGlassLensView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOOReadingGlassLensView.m; sourceTree = "<group>"; };
+		7181DA4115B2D306004BD9C3 /* LOOCGFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOOCGFunctions.h; sourceTree = "<group>"; };
+		7181DA4215B2D306004BD9C3 /* LOOCGFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOOCGFunctions.m; sourceTree = "<group>"; };
+		7181DA4815B2F5D7004BD9C3 /* libLensView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLensView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7181DA0C15B2B9C6004BD9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7181DA6115B308C5004BD9C3 /* libLensView.a in Frameworks */,
+				7181DA1415B2B9C6004BD9C3 /* UIKit.framework in Frameworks */,
+				7181DA1615B2B9C6004BD9C3 /* Foundation.framework in Frameworks */,
+				7181DA1815B2B9C6004BD9C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7181DA4515B2F5D7004BD9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7181DA0415B2B9C6004BD9C3 = {
+			isa = PBXGroup;
+			children = (
+				7181DA1915B2B9C6004BD9C3 /* LensView */,
+				7181DA1215B2B9C6004BD9C3 /* Frameworks */,
+				7181DA1015B2B9C6004BD9C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7181DA1015B2B9C6004BD9C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7181DA0F15B2B9C6004BD9C3 /* LensView.app */,
+				7181DA4815B2F5D7004BD9C3 /* libLensView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7181DA1215B2B9C6004BD9C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7181DA1315B2B9C6004BD9C3 /* UIKit.framework */,
+				7181DA1515B2B9C6004BD9C3 /* Foundation.framework */,
+				7181DA1715B2B9C6004BD9C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7181DA1915B2B9C6004BD9C3 /* LensView */ = {
+			isa = PBXGroup;
+			children = (
+				7181DA3015B2D2DC004BD9C3 /* Lens */,
+				7181DA2215B2B9C7004BD9C3 /* LensAppDelegate.h */,
+				7181DA2315B2B9C7004BD9C3 /* LensAppDelegate.m */,
+				7181DA4115B2D306004BD9C3 /* LOOCGFunctions.h */,
+				7181DA4215B2D306004BD9C3 /* LOOCGFunctions.m */,
+				7181DA2A15B2BB21004BD9C3 /* LensExampleViewController.h */,
+				7181DA2B15B2BB21004BD9C3 /* LensExampleViewController.m */,
+				7181DA2D15B2C385004BD9C3 /* LensSierpinskiView.h */,
+				7181DA2E15B2C385004BD9C3 /* LensSierpinskiView.m */,
+				7181DA1A15B2B9C6004BD9C3 /* Supporting Files */,
+			);
+			path = LensView;
+			sourceTree = "<group>";
+		};
+		7181DA1A15B2B9C6004BD9C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7181DA1B15B2B9C6004BD9C3 /* LensView-Info.plist */,
+				7181DA1F15B2B9C7004BD9C3 /* main.m */,
+				7181DA2115B2B9C7004BD9C3 /* LensView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7181DA3015B2D2DC004BD9C3 /* Lens */ = {
+			isa = PBXGroup;
+			children = (
+				7181DA3115B2D2DC004BD9C3 /* LOOLensBaseView+Protected.h */,
+				7181DA3215B2D2DC004BD9C3 /* LOOLensBaseView.h */,
+				7181DA3315B2D2DC004BD9C3 /* LOOLensBaseView.m */,
+				7181DA3415B2D2DC004BD9C3 /* LOOMagGlassLensDecorView.h */,
+				7181DA3515B2D2DC004BD9C3 /* LOOMagGlassLensDecorView.m */,
+				7181DA3615B2D2DC004BD9C3 /* LOOMagGlassLensView.h */,
+				7181DA3715B2D2DC004BD9C3 /* LOOMagGlassLensView.m */,
+				7181DA3815B2D2DC004BD9C3 /* LOOReadingGlassLensDecorView.h */,
+				7181DA3915B2D2DC004BD9C3 /* LOOReadingGlassLensDecorView.m */,
+				7181DA3A15B2D2DC004BD9C3 /* LOOReadingGlassLensView.h */,
+				7181DA3B15B2D2DC004BD9C3 /* LOOReadingGlassLensView.m */,
+			);
+			path = Lens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7181DA4615B2F5D7004BD9C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7181DA5915B2F676004BD9C3 /* LOOLensBaseView+Protected.h in Headers */,
+				7181DA5A15B2F676004BD9C3 /* LOOLensBaseView.h in Headers */,
+				7181DA5B15B2F676004BD9C3 /* LOOMagGlassLensView.h in Headers */,
+				7181DA5C15B2F676004BD9C3 /* LOOReadingGlassLensView.h in Headers */,
+				7181DA5D15B2F676004BD9C3 /* LOOCGFunctions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7181DA0E15B2B9C6004BD9C3 /* LensView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7181DA2715B2B9C7004BD9C3 /* Build configuration list for PBXNativeTarget "LensView" */;
+			buildPhases = (
+				7181DA0B15B2B9C6004BD9C3 /* Sources */,
+				7181DA0C15B2B9C6004BD9C3 /* Frameworks */,
+				7181DA0D15B2B9C6004BD9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7181DA6715B30A70004BD9C3 /* PBXTargetDependency */,
+			);
+			name = LensView;
+			productName = LensView;
+			productReference = 7181DA0F15B2B9C6004BD9C3 /* LensView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7181DA4715B2F5D7004BD9C3 /* libLensView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7181DA5015B2F5D8004BD9C3 /* Build configuration list for PBXNativeTarget "libLensView" */;
+			buildPhases = (
+				7181DA4415B2F5D7004BD9C3 /* Sources */,
+				7181DA4515B2F5D7004BD9C3 /* Frameworks */,
+				7181DA4615B2F5D7004BD9C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libLensView;
+			productName = libLensView;
+			productReference = 7181DA4815B2F5D7004BD9C3 /* libLensView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7181DA0615B2B9C6004BD9C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lens;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "LoonyWare Marcin Świderski";
+			};
+			buildConfigurationList = 7181DA0915B2B9C6004BD9C3 /* Build configuration list for PBXProject "LensView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7181DA0415B2B9C6004BD9C3;
+			productRefGroup = 7181DA1015B2B9C6004BD9C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7181DA0E15B2B9C6004BD9C3 /* LensView */,
+				7181DA4715B2F5D7004BD9C3 /* libLensView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7181DA0D15B2B9C6004BD9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7181DA0B15B2B9C6004BD9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7181DA2015B2B9C7004BD9C3 /* main.m in Sources */,
+				7181DA2415B2B9C7004BD9C3 /* LensAppDelegate.m in Sources */,
+				7181DA2C15B2BB21004BD9C3 /* LensExampleViewController.m in Sources */,
+				7181DA2F15B2C385004BD9C3 /* LensSierpinskiView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7181DA4415B2F5D7004BD9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7181DA5315B2F649004BD9C3 /* LOOLensBaseView.m in Sources */,
+				7181DA5415B2F649004BD9C3 /* LOOMagGlassLensDecorView.m in Sources */,
+				7181DA5515B2F649004BD9C3 /* LOOMagGlassLensView.m in Sources */,
+				7181DA5615B2F649004BD9C3 /* LOOReadingGlassLensDecorView.m in Sources */,
+				7181DA5715B2F649004BD9C3 /* LOOReadingGlassLensView.m in Sources */,
+				7181DA5815B2F649004BD9C3 /* LOOCGFunctions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7181DA6715B30A70004BD9C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7181DA4715B2F5D7004BD9C3 /* libLensView */;
+			targetProxy = 7181DA6615B30A70004BD9C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7181DA2515B2B9C7004BD9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7181DA2615B2B9C7004BD9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7181DA2815B2B9C7004BD9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensView/LensView-Prefix.pch";
+				INFOPLIST_FILE = "LensView/LensView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7181DA2915B2B9C7004BD9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensView/LensView-Prefix.pch";
+				INFOPLIST_FILE = "LensView/LensView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7181DA5115B2F5D8004BD9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libLensView.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensView/LensView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7181DA5215B2F5D8004BD9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libLensView.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LensView/LensView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7181DA0915B2B9C6004BD9C3 /* Build configuration list for PBXProject "LensView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7181DA2515B2B9C7004BD9C3 /* Debug */,
+				7181DA2615B2B9C7004BD9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7181DA2715B2B9C7004BD9C3 /* Build configuration list for PBXNativeTarget "LensView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7181DA2815B2B9C7004BD9C3 /* Debug */,
+				7181DA2915B2B9C7004BD9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7181DA5015B2F5D8004BD9C3 /* Build configuration list for PBXNativeTarget "libLensView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7181DA5115B2F5D8004BD9C3 /* Debug */,
+				7181DA5215B2F5D8004BD9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7181DA0615B2B9C6004BD9C3 /* Project object */;
+}
